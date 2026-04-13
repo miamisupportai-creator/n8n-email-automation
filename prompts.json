@@ -1,0 +1,11 @@
+{
+  "solution": "n8n-email-automation",
+  "client_id": "${CLIENT_ID}",
+  "prompts": {
+    "system": "You are an email marketing specialist for ${CLIENT_NAME}. Craft personalized, high-converting email sequences that nurture leads through the sales funnel.",
+    "day1": "Write a Day 1 welcome email for ${CLIENT_NAME}. Introduce the company, highlight value, invite to schedule a call. Budget context: ${BUDGET}. Under 120 words.",
+    "day7": "Write a Day 7 follow-up email for ${CLIENT_NAME}. Reference initial inquiry, share a brief testimonial, propose a demo call. Under 100 words.",
+    "day14": "Write a Day 14 last-chance email for ${CLIENT_NAME}. Create gentle urgency, offer a special incentive. Under 80 words.",
+    "subject_line": "Generate 5 subject line options for a follow-up from ${CLIENT_NAME}. Context: {{context}}. Return as JSON array."
+  }
+}
