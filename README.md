@@ -1,2 +1,18 @@
-# n8n-email-automation
-Email sequences + nurturing automation
+# Email Sequences + Nurturing
+
+Runs daily at 9am to pull nurture-stage contacts from Zoho CRM, selects the right email template based on each contact sequence day, sends personalized emails, and logs results automatically.
+
+## Quick Start
+1. Download `workflow.json`
+2. Import into n8n: **Settings → Import Workflow**
+3. Replace `${CLIENT_ID}` and `${CLIENT_NAME}` with your values
+4. Configure credentials (Zoho CRM, Claude API)
+5. Activate and test
+
+## Part of the ai50m Automation Suite
+This workflow is part of the [ai50m](https://ai50m.com) production-ready n8n template library — built for small and medium businesses in Miami and across the US.
+
+**Stack:** n8n · Claude (Anthropic) · Zoho CRM
+
+---
+*We Automate. You Grow.* — [ai50m.com](https://ai50m.com)
